@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     font-family:Arial, Helvetica, sans-serif;
+    /* border:1px solid red */
    
 }
 nav{
@@ -55,14 +56,15 @@ li:hover{
     height:12px;
     width:15px
 }
-.main_btn{
-    height:30px;
-    width: 180px;
+.main_span{
+    margin-left: -6.2%;
+    font-size: larger;
+   padding:5px;
     border-radius: 10px;
     border:none;
     background-color:#006D77 ;
     color:white;
-    margin-bottom: 8%;
+ 
 }
 .main{
   
@@ -71,27 +73,35 @@ li:hover{
     margin-left:25%;
     display: flex;
     justify-content: center;
-    gap:15%;
+    gap:10%;
   
 }
 #section{
     background-color: #BEE1E6;
 }
 .info{
-    margin-top: 20%;
+    margin-top: 13%;
+    padding: 5%;
+   
 }
-.img{
+/* .img{
     margin-top: 20%;
-}
+   
+} */
 h1{
-    font-size:xx-large ;
-    width: 360px;
+    padding-right: 20%;
+    margin-top: 6%;
+    margin-left: -6.2%;
+    font-size:3.5em ;
+    width: 599px;
     margin-bottom: 5%;
 }
 .paragraph{
-    width: 500px;
-    font-size: small;
+    margin-left: -6.2%;
+    width: 680px;
+    font-size:large;
     margin-bottom:5%;
+    color: grey;
 }
 .get_started_black{
     width: 130px;
@@ -100,7 +110,8 @@ h1{
     border:none;
     color:white;
     background-color: black;
-
+    margin-top:0%;
+    margin-left: -6%;
 }
 .get_started_blue{
     width: 130px;
@@ -110,4 +121,10 @@ h1{
     border-color: #2dcad8;
     border-radius:8px;
     margin-left: 50px;
+}
+.div_img{margin-top:10%}
+.img{
+    margin-top: 12%;
+    height: 400px;
+    width:400px;
 }
